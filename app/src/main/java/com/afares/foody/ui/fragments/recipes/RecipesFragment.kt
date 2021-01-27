@@ -1,10 +1,11 @@
-package com.afares.foody
+package com.afares.foody.ui.fragments.recipes
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.afares.foody.R
 import kotlinx.android.synthetic.main.fragment_recipes.view.*
 
 class RecipesFragment : Fragment() {
