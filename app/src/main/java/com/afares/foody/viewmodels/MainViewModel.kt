@@ -1,4 +1,4 @@
-package com.afares.foody
+package com.afares.foody.viewmodels
 
 import android.app.Application
 import android.content.Context
