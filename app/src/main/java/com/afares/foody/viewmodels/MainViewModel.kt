@@ -1,4 +1,4 @@
-package com.afares.foody
+package com.afares.foody.viewmodels
 
 import android.app.Application
 import android.content.Context
@@ -47,7 +47,7 @@ class MainViewModel @ViewModelInject constructor(
             response.code() == 402 -> {
                 return NetworkResult.Error("API Key Limited.")
             }
-            response.body()!!.results.isNotEmpty() -> {
+            response.body()!!.results.isNullOrEmpty() -> {
                 return NetworkResult.Error("Recipes Not Found.")
             }
             response.isSuccessful -> {
