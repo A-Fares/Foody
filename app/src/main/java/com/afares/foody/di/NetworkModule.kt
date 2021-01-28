@@ -1,7 +1,7 @@
 package com.afares.foody.di
 
-import com.afares.foody.Constants.Companion.BASE_URL
-import com.afares.foody.FoodRecipesApi
+import com.afares.foody.util.Constants.Companion.BASE_URL
+import com.afares.foody.data.network.FoodRecipesApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

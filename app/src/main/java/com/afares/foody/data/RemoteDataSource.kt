@@ -1,5 +1,6 @@
-package com.afares.foody
+package com.afares.foody.data
 
+import com.afares.foody.data.network.FoodRecipesApi
 import com.afares.foody.models.FoodRecipe
 import retrofit2.Response
 import javax.inject.Inject

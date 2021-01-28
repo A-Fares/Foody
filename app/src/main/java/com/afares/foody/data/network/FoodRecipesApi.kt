@@ -1,4 +1,4 @@
-package com.afares.foody
+package com.afares.foody.data.network
 
 import com.afares.foody.models.FoodRecipe
 import retrofit2.Response

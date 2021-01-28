@@ -1,4 +1,4 @@
-package com.afares.foody
+package com.afares.foody.util
 
 class Constants {
     companion object {
