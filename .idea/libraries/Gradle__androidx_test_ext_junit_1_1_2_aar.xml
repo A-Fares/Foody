@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.test.ext:junit:1.1.2@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/680d9f44713fdfa5dc0c2c036b7a1662/junit-1.1.2/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9e8ef9167f5b7dc93c4558fe6d990ea5/junit-1.1.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9e8ef9167f5b7dc93c4558fe6d990ea5/junit-1.1.2/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9e8ef9167f5b7dc93c4558fe6d990ea5/junit-1.1.2/AndroidManifest.xml" />
