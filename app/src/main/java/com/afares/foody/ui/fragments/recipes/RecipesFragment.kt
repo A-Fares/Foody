@@ -1,27 +1,23 @@
 package com.afares.foody.ui.fragments.recipes
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.afares.foody.R
 import com.afares.foody.adapters.RecipesAdapter
-import com.afares.foody.util.Constants.Companion.API_KEY
-import com.afares.foody.util.Constants.Companion.QUERY_ADD_RECIPE_INFORMATION
-import com.afares.foody.util.Constants.Companion.QUERY_API_KEY
-import com.afares.foody.util.Constants.Companion.QUERY_DIET
-import com.afares.foody.util.Constants.Companion.QUERY_FILL_INGREDIENTS
-import com.afares.foody.util.Constants.Companion.QUERY_NUMBER
-import com.afares.foody.util.Constants.Companion.QUERY_TYPE
 import com.afares.foody.util.NetworkResult
 import com.afares.foody.viewmodels.MainViewModel
 import com.afares.foody.viewmodels.RecipesViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_recipes.view.*
+import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
 class RecipesFragment : Fragment() {
@@ -47,12 +43,33 @@ class RecipesFragment : Fragment() {
         mView = inflater.inflate(R.layout.fragment_recipes, container, false)
 
         setupRecyclerView()
-        requestApiData()
+        readDatabase()
 
         return mView
     }
 
-    fun requestApiData() {
+    private fun setupRecyclerView() {
+        mView.recyclerview.adapter = mAdapter
+        mView.recyclerview.layoutManager = LinearLayoutManager(requireContext())
+        showShimmerEffect()
+    }
+
+    private fun readDatabase() {
+        lifecycleScope.launch {
+            mainViewModel.readRecipe.observe(viewLifecycleOwner, { database ->
+                if (database.isNotEmpty()) {
+                    Log.d("RecipesFragment", "readDatabase Called! ")
+                    mAdapter.setData(database[0].foodRecipe)
+                    hideShimmerEffect()
+                } else {
+                    requestApiData()
+                }
+            })
+        }
+    }
+
+    private fun requestApiData() {
+        Log.d("RecipesFragment", "requestApiData Called! ")
         mainViewModel.getRecipes(recipesViewModel.applyQueries())
         mainViewModel.recipeResponse.observe(viewLifecycleOwner, { response ->
             when (response) {
@@ -62,6 +79,7 @@ class RecipesFragment : Fragment() {
                 }
                 is NetworkResult.Error -> {
                     hideShimmerEffect()
+                    loadDataFromCache()
                     Toast.makeText(
                             requireContext(),
                             response.message.toString(),
@@ -75,12 +93,16 @@ class RecipesFragment : Fragment() {
         })
     }
 
-
-    private fun setupRecyclerView() {
-        mView.recyclerview.adapter = mAdapter
-        mView.recyclerview.layoutManager = LinearLayoutManager(requireContext())
-        showShimmerEffect()
+    private fun loadDataFromCache() {
+        lifecycleScope.launch {
+            mainViewModel.readRecipe.observe(viewLifecycleOwner, { database ->
+                if (database.isNotEmpty()) {
+                    mAdapter.setData(database[0].foodRecipe)
+                }
+            })
+        }
     }
+
 
     private fun showShimmerEffect() {
         mView.recyclerview.showShimmer()
