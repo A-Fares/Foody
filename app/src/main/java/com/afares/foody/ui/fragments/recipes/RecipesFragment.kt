@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.afares.foody.R
 import com.afares.foody.adapters.RecipesAdapter
 import com.afares.foody.util.NetworkResult
+import com.afares.foody.util.observeOnce
 import com.afares.foody.viewmodels.MainViewModel
 import com.afares.foody.viewmodels.RecipesViewModel
 import dagger.hilt.android.AndroidEntryPoint
@@ -56,7 +57,7 @@ class RecipesFragment : Fragment() {
 
     private fun readDatabase() {
         lifecycleScope.launch {
-            mainViewModel.readRecipe.observe(viewLifecycleOwner, { database ->
+            mainViewModel.readRecipe.observeOnce(viewLifecycleOwner, { database ->
                 if (database.isNotEmpty()) {
                     Log.d("RecipesFragment", "readDatabase Called! ")
                     mAdapter.setData(database[0].foodRecipe)
