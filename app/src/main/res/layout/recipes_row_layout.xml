@@ -115,14 +115,14 @@
 
                 <TextView
                     android:id="@+id/clock_textView"
+                    setNumbersOfMinutes="@{result.readyInMinutes}"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
                     android:text="100"
-                    setNumbersOfMinutes="@{result.readyInMinutes}"
                     android:textAlignment="center"
                     android:textColor="@color/yellow"
-                    app:layout_constraintStart_toEndOf="@+id/heart_textView"
+                    app:layout_constraintStart_toEndOf="@+id/heart_imageView"
                     app:layout_constraintTop_toBottomOf="@+id/clock_imageView" />
 
                 <ImageView
@@ -137,13 +137,13 @@
 
                 <TextView
                     android:id="@+id/leaf_textView"
+                    applyVeganColor="@{result.vegan}"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
-                    applyVeganColor="@{result.vegan}"
                     android:text="Vegan"
                     android:textAlignment="center"
-                    app:layout_constraintStart_toEndOf="@+id/clock_textView"
+                    app:layout_constraintStart_toEndOf="@+id/clock_imageView"
                     app:layout_constraintTop_toBottomOf="@+id/leaf_imageView" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
