@@ -6,6 +6,7 @@ import androidx.datastore.preferences.core.*
 import androidx.datastore.preferences.createDataStore
 import com.afares.foody.util.Constants.Companion.DEFAULT_DIET_TYPE
 import com.afares.foody.util.Constants.Companion.DEFAULT_MEAL_TYPE
+import com.afares.foody.util.Constants.Companion.PREFERENCES_BACK_ONLINE
 import com.afares.foody.util.Constants.Companion.PREFERENCES_DIET_TYPE
 import com.afares.foody.util.Constants.Companion.PREFERENCES_DIET_TYPE_ID
 import com.afares.foody.util.Constants.Companion.PREFERENCES_MEAL_TYPE
@@ -28,6 +29,8 @@ class DataStoreRepository @Inject constructor(@ApplicationContext context: Conte
         val selectedMealTypeId = intPreferencesKey(PREFERENCES_MEAL_TYPE_ID)
         val selectedDietType = stringPreferencesKey(PREFERENCES_DIET_TYPE)
         val selectedDietTypeId = intPreferencesKey(PREFERENCES_DIET_TYPE_ID)
+        val backOnline = booleanPreferencesKey(PREFERENCES_BACK_ONLINE)
+
     }
 
     private val dataStore: DataStore<Preferences> = context.createDataStore(
@@ -45,6 +48,12 @@ class DataStoreRepository @Inject constructor(@ApplicationContext context: Conte
             preferences[PreferenceKeys.selectedMealTypeId] = mealTypeId
             preferences[PreferenceKeys.selectedDietType] = dietType
             preferences[PreferenceKeys.selectedDietTypeId] = dietTypeId
+        }
+    }
+
+    suspend fun saveBackOnline(backOnline: Boolean) {
+        dataStore.edit { preferences ->
+            preferences[PreferenceKeys.backOnline] = backOnline
         }
     }
 
@@ -69,6 +78,20 @@ class DataStoreRepository @Inject constructor(@ApplicationContext context: Conte
                         selectedDietType,
                         selectedDietTypeId
                 )
+            }
+
+
+    val readBackOnline: Flow<Boolean> = dataStore.data
+            .catch { exception ->
+                if (exception is IOException) {
+                    emit(emptyPreferences())
+                } else {
+                    throw exception
+                }
+            }
+            .map { preferences ->
+                val backOnline = preferences[PreferenceKeys.backOnline] ?: false
+                backOnline
             }
 
 }
