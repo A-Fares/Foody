@@ -24,4 +24,9 @@
     <color name="chipBackgroundColor">@color/lightGray</color>
     <color name="checkedChipTextColor">#6200EA</color>
     <color name="chipTextColor">@color/darkGray</color>
+
+    <color name="actionBarBackgroundColor">#6200EA</color>
+    <color name="strokeColor">@color/lightMediumGray</color>
+    <color name="cardBackgroundColor">@color/white</color>
+    <color name="titleColor">@color/darker</color>
 </resources>
