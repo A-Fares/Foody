@@ -11,7 +11,6 @@ import com.afares.foody.data.database.entities.FavoritesEntity
 import com.afares.foody.data.database.entities.RecipesEntity
 import com.afares.foody.models.FoodRecipe
 import com.afares.foody.util.NetworkResult
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch
 import retrofit2.Response
@@ -37,10 +36,10 @@ class MainViewModel @ViewModelInject constructor(
             repository.local.insertFavoriteRecipes(favoritesEntity)
         }
 
-    private fun deleteFavoriteRecipe(favoritesEntity: FavoritesEntity) =
-        viewModelScope.launch(IO) {
-            repository.local.deleteFavoriteRecipe(favoritesEntity)
-        }
+     fun deleteFavoriteRecipe(favoritesEntity: FavoritesEntity) =
+         viewModelScope.launch(IO) {
+             repository.local.deleteFavoriteRecipe(favoritesEntity)
+         }
 
     private fun deleteAllFavoriteRecipes() =
         viewModelScope.launch(IO) {
