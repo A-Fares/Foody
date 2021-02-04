@@ -1,16 +1,17 @@
 package com.afares.foody
 
 import android.os.Bundle
+import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.navigation.navArgs
 import com.afares.foody.adapters.PagerAdapter
-import com.afares.foody.util.Constants.Companion.RECIPE_RESULT_KEY
 import com.afares.foody.ui.fragments.ingredients.IngredientsFragment
 import com.afares.foody.ui.fragments.instructions.InstructionsFragment
 import com.afares.foody.ui.fragments.overview.OverviewFragment
+import com.afares.foody.util.Constants.Companion.RECIPE_RESULT_KEY
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.activity_details.*
 
@@ -52,6 +53,11 @@ class DetailsActivity : AppCompatActivity() {
             tab.text = titles[position]
         }.attach()
 
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.details_menu, menu)
+        return true
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
