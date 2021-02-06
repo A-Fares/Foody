@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Foody">
         <activity
-            android:name=".DetailsActivity"
+            android:name=".ui.DetailsActivity"
             android:theme="@style/DetailsActivityStyle" />
         <activity android:name=".ui.MainActivity">
             <intent-filter>
