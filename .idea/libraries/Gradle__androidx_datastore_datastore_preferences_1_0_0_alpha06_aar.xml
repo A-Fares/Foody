@@ -1,9 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.datastore:datastore-preferences:1.0.0-alpha06@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/40d6500e4570bad966a53536acfec03d/jetified-datastore-preferences-1.0.0-alpha06/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/40d6500e4570bad966a53536acfec03d/jetified-datastore-preferences-1.0.0-alpha06/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/40d6500e4570bad966a53536acfec03d/jetified-datastore-preferences-1.0.0-alpha06/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3fe074c401c2eab632bb8fe56837d5cd/transformed/jetified-datastore-preferences-1.0.0-alpha06/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3fe074c401c2eab632bb8fe56837d5cd/transformed/jetified-datastore-preferences-1.0.0-alpha06/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3fe074c401c2eab632bb8fe56837d5cd/transformed/jetified-datastore-preferences-1.0.0-alpha06/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4d210dfabd1b9579f238c10a26d1254f/transformed/jetified-datastore-preferences-1.0.0-alpha06/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5c05bcb900145f9575f16f9eedd78d25/transformed/jetified-datastore-preferences-1.0.0-alpha06/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/10c340a0d5c0ab39ed93f25159e9c44a/transformed/jetified-datastore-preferences-1.0.0-alpha06/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/10c340a0d5c0ab39ed93f25159e9c44a/transformed/jetified-datastore-preferences-1.0.0-alpha06/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/10c340a0d5c0ab39ed93f25159e9c44a/transformed/jetified-datastore-preferences-1.0.0-alpha06/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

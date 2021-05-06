@@ -1,12 +1,16 @@
 <component name="libraryTable">
   <library name="Gradle: com.todkars:shimmer-recyclerview:0.4.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f7387918b3bec7bc4b2eb02c29f5a5f2/jetified-shimmer-recyclerview-0.4.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/edf3556003529b1af5d3e788487e37da/transformed/jetified-shimmer-recyclerview-0.4.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6d5e93257c10e545239327a3cd0b0cb2/transformed/jetified-shimmer-recyclerview-0.4.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f7387918b3bec7bc4b2eb02c29f5a5f2/jetified-shimmer-recyclerview-0.4.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f7387918b3bec7bc4b2eb02c29f5a5f2/jetified-shimmer-recyclerview-0.4.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f7387918b3bec7bc4b2eb02c29f5a5f2/jetified-shimmer-recyclerview-0.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/edf3556003529b1af5d3e788487e37da/transformed/jetified-shimmer-recyclerview-0.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/edf3556003529b1af5d3e788487e37da/transformed/jetified-shimmer-recyclerview-0.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/edf3556003529b1af5d3e788487e37da/transformed/jetified-shimmer-recyclerview-0.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6d5e93257c10e545239327a3cd0b0cb2/transformed/jetified-shimmer-recyclerview-0.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6d5e93257c10e545239327a3cd0b0cb2/transformed/jetified-shimmer-recyclerview-0.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6d5e93257c10e545239327a3cd0b0cb2/transformed/jetified-shimmer-recyclerview-0.4.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

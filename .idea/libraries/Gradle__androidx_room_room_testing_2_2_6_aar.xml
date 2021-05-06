@@ -1,9 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.room:room-testing:2.2.6@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/110cdfd8b5b89f11980fb309b0cf02c8/room-testing-2.2.6/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/110cdfd8b5b89f11980fb309b0cf02c8/room-testing-2.2.6/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/110cdfd8b5b89f11980fb309b0cf02c8/room-testing-2.2.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ff072f5493046ba5ade0812b133959e8/transformed/room-testing-2.2.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ff072f5493046ba5ade0812b133959e8/transformed/room-testing-2.2.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ff072f5493046ba5ade0812b133959e8/transformed/room-testing-2.2.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/636da86f7be24286dcc6d76adb45cd8a/transformed/room-testing-2.2.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3f8d4dc286331131eea4d1722a6a1323/transformed/room-testing-2.2.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aec8f4c0e25bb25e04548754b4cb4679/transformed/room-testing-2.2.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/aec8f4c0e25bb25e04548754b4cb4679/transformed/room-testing-2.2.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aec8f4c0e25bb25e04548754b4cb4679/transformed/room-testing-2.2.6/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -18,14 +18,13 @@ import com.afares.foody.util.Constants.Companion.QUERY_FILL_INGREDIENTS
 import com.afares.foody.util.Constants.Companion.QUERY_NUMBER
 import com.afares.foody.util.Constants.Companion.QUERY_SEARCH
 import com.afares.foody.util.Constants.Companion.QUERY_TYPE
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
 class RecipesViewModel @ViewModelInject constructor(
-        application: Application,
-        private val dataStoreRepository: DataStoreRepository
+    application: Application,
+    private val dataStoreRepository: DataStoreRepository
 ) : AndroidViewModel(application) {
 
     private var mealType = DEFAULT_MEAL_TYPE
@@ -44,9 +43,9 @@ class RecipesViewModel @ViewModelInject constructor(
     }
 
     private fun saveBackOnline(backOnline: Boolean) =
-            viewModelScope.launch(IO) {
-                dataStoreRepository.saveBackOnline(backOnline)
-            }
+        viewModelScope.launch(IO) {
+            dataStoreRepository.saveBackOnline(backOnline)
+        }
 
     fun applyQueries(): HashMap<String, String> {
         val queries: HashMap<String, String> = HashMap()
