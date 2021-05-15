@@ -28,8 +28,8 @@ class InstructionsFragment : Fragment() {
         view.instructions_webView.webViewClient = object : WebViewClient() {
             override fun onPageFinished(view: WebView?, url: String?) {
                 super.onPageFinished(view, url)
-                progressBar.visibility = View.GONE
-                instructions_webView.visibility = View.VISIBLE
+                progressBar?.visibility = View.GONE
+                instructions_webView?.visibility = View.VISIBLE
             }
         }
         val websiteUrl: String = myBundle!!.sourceUrl
