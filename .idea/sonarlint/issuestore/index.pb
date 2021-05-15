@@ -25,8 +25,6 @@ P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 f
 6app/src/main/java/com/afares/foody/di/NetworkModule.kt,0\4\04dcd77cc5bf2bea765c38b4e66b2db0439514ad
-d
-4app/src/main/java/com/afares/foody/util/Constants.kt,7\5\75442cb37f8c33afd806e17b1b1ec76ad7bc348e
 c
 3app/src/main/java/com/afares/foody/models/Result.kt,8\7\877a6abc2d69c115d08d866526de2f2e56ab35c5
 o
