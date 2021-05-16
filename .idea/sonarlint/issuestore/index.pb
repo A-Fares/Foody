@@ -51,8 +51,6 @@ z
 Japp/src/main/java/com/afares/foody/ui/fragments/recipes/RecipesFragment.kt,d\2\d2c9f40f82a6353e91ceda4ee91587fe79e7ed21
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-O
-.idea/modules/app/Foody.app.iml,3\5\35af8820223f66aa82aaa8355368154c3afec0cf
 G
 .idea/modules/Foody.iml,3\b\3b6d4e6c272bb05074f8e9ecc4108dec103ee358
 X
@@ -219,3 +217,25 @@ k
 ;.idea/libraries/Gradle__io_coil_kt_coil_base_0_13_0_aar.xml,1\9\193fc984359e507a7bbb053faa8a69378b8bae15
 L
 .idea/codeStyles/Project.xml,6\e\6ecd6000a7b6f4a2884412ff19f74193ed089648
+q
+Aapp/src/main/java/com/afares/foody/viewmodels/RecipesViewModel.kt,8\0\80e3db07d0adecb38a73b61227ec1f275a5b4da6
+|
+Lapp/src/main/java/com/afares/foody/data/database/entities/FavoritesEntity.kt,b\e\be5653be695128b02caff51d97038f78d95d5a8c
+‡
+W.idea/libraries/Gradle__androidx_databinding_databinding_adapters_7_0_0_alpha15_aar.xml,1\3\1383096edbe7e6831e2b87443b24af082331b518
+
+Q.idea/libraries/Gradle__androidx_databinding_databinding_common_7_0_0_alpha15.xml,f\5\f578cb3067a5ea5c942df2b72740d8474c346d7a
+‚
+R.idea/libraries/Gradle__androidx_databinding_databinding_ktx_7_0_0_alpha15_aar.xml,d\2\d291a0b5d76bf65a337a114d3feb751f582900be
+†
+V.idea/libraries/Gradle__androidx_databinding_databinding_runtime_7_0_0_alpha15_aar.xml,8\e\8e8235eba1dd8624676498c41e6b83554fa49de5
+~
+N.idea/libraries/Gradle__androidx_databinding_viewbinding_7_0_0_alpha15_aar.xml,d\e\de2e579a81f8b602be32a4612a614a8355ef1dd5
+u
+E.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_32.xml,2\c\2cbebacfd67dbf4dbfdd0c03a18f0d5f4b30899e
+|
+L.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_32.xml,4\e\4e498d562023172a7e851891f978fc6b7773a942
+d
+4app/src/main/java/com/afares/foody/util/Constants.kt,7\5\75442cb37f8c33afd806e17b1b1ec76ad7bc348e
+„
+Tapp/src/main/java/com/afares/foody/ui/fragments/instructions/InstructionsFragment.kt,c\5\c5698aa88fcd8038de64f1edbba50202b6a5920e
