@@ -9,8 +9,6 @@ Lapp/src/main/java/com/afares/foody/bindingadapters/FavoriteRecipesBinding.kt,9
 Lapp/src/main/java/com/afares/foody/ui/fragments/overview/OverviewFragment.kt,4\3\430ae68b6e159a76b799d8aef3ee5bdd4bca9aab
 g
 7app/src/main/java/com/afares/foody/di/DatabaseModule.kt,2\0\20d6962f5f9d1695d3ac5f03ffb97c909c4fc018
-n
->app/src/main/java/com/afares/foody/viewmodels/MainViewModel.kt,3\d\3d1c156f02c7be1c456a5c2a2cbfd524f789e818
 z
 Japp/src/main/java/com/afares/foody/data/database/entities/RecipesEntity.kt,9\b\9ba9d09adfb3e5acf0c9168c2dfc3dd6c5d4a1f0
 q
