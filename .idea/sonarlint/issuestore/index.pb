@@ -25,8 +25,6 @@ c
 3app/src/main/java/com/afares/foody/models/Result.kt,8\7\877a6abc2d69c115d08d866526de2f2e56ab35c5
 o
 ?app/src/main/java/com/afares/foody/models/ExtendedIngredient.kt,a\3\a3fb43a50c0487c673a453c7076dbfe6090011de
-k
-;app/src/main/java/com/afares/foody/data/RemoteDataSource.kt,4\7\479fad833662bcfa07a58f0f98b5a0638d93ba7e
 e
 5app/src/main/java/com/afares/foody/data/Repository.kt,1\4\144677a4161702a42470082cb269eed02863d298
 j
