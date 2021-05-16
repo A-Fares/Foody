@@ -1,16 +1,12 @@
 
 e
 5app/src/main/java/com/afares/foody/ui/MainActivity.kt,8\a\8aa70295b20bd9c09f8b558d4a935ee35c16dbae
-j
-:app/src/main/java/com/afares/foody/data/LocalDataSource.kt,5\d\5d2297f8c2f4e1f787540df5478d66e2afb27834
 |
 Lapp/src/main/java/com/afares/foody/bindingadapters/FavoriteRecipesBinding.kt,9\1\9173b5db8ac28edf1d97d068fe6edb7d99974e92
 |
 Lapp/src/main/java/com/afares/foody/ui/fragments/overview/OverviewFragment.kt,4\3\430ae68b6e159a76b799d8aef3ee5bdd4bca9aab
 g
 7app/src/main/java/com/afares/foody/di/DatabaseModule.kt,2\0\20d6962f5f9d1695d3ac5f03ffb97c909c4fc018
-z
-Japp/src/main/java/com/afares/foody/data/database/entities/RecipesEntity.kt,9\b\9ba9d09adfb3e5acf0c9168c2dfc3dd6c5d4a1f0
 q
 Aapp/src/main/java/com/afares/foody/adapters/IngredientsAdapter.kt,a\f\af9e611dc78475ecfa654f077b3005e847b1c7f6
 c
@@ -41,8 +37,6 @@ w
 Gapp/src/main/java/com/afares/foody/bindingadapters/RecipesRowBinding.kt,f\3\f38f5e1e2ec0757fe96039b0bf134a8ad9af74fd
 h
 8app/src/main/java/com/afares/foody/ui/DetailsActivity.kt,e\8\e83ede25152ce8944b614e45bbe1625b3e9bb5eb
-g
-7app/src/main/java/com/afares/foody/models/FoodRecipe.kt,2\3\2341ad18295651b2ea490be5d0e307eb7460d783
 z
 Japp/src/main/java/com/afares/foody/ui/fragments/recipes/RecipesFragment.kt,d\2\d2c9f40f82a6353e91ceda4ee91587fe79e7ed21
 <
@@ -215,8 +209,6 @@ L
 .idea/codeStyles/Project.xml,6\e\6ecd6000a7b6f4a2884412ff19f74193ed089648
 q
 Aapp/src/main/java/com/afares/foody/viewmodels/RecipesViewModel.kt,8\0\80e3db07d0adecb38a73b61227ec1f275a5b4da6
-|
-Lapp/src/main/java/com/afares/foody/data/database/entities/FavoritesEntity.kt,b\e\be5653be695128b02caff51d97038f78d95d5a8c
 ‡
 W.idea/libraries/Gradle__androidx_databinding_databinding_adapters_7_0_0_alpha15_aar.xml,1\3\1383096edbe7e6831e2b87443b24af082331b518
 
@@ -231,7 +223,5 @@ u
 E.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_32.xml,2\c\2cbebacfd67dbf4dbfdd0c03a18f0d5f4b30899e
 |
 L.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_32.xml,4\e\4e498d562023172a7e851891f978fc6b7773a942
-d
-4app/src/main/java/com/afares/foody/util/Constants.kt,7\5\75442cb37f8c33afd806e17b1b1ec76ad7bc348e
 „
 Tapp/src/main/java/com/afares/foody/ui/fragments/instructions/InstructionsFragment.kt,c\5\c5698aa88fcd8038de64f1edbba50202b6a5920e
