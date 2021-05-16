@@ -119,7 +119,7 @@ class MainViewModel @ViewModelInject constructor(
                     offlineCacheFoodJoke(foodJoke)
                 }
             } catch (e: java.lang.Exception) {
-                foodJokeResponse.value = NetworkResult.Error("Recipes not found.")
+                foodJokeResponse.value = NetworkResult.Error("Joke not found.")
             }
         } else {
             foodJokeResponse.value = NetworkResult.Error("No Internet Connection.")

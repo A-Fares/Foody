@@ -31,14 +31,10 @@ m
 =app/src/main/java/com/afares/foody/adapters/RecipesAdapter.kt,b\6\b68aa8a0224d3ee674ba21a9b7c693ce9986d49f
 o
 ?app/src/main/java/com/afares/foody/util/MyExtensionFunctions.kt,8\6\861deda61431bd15b38eebf6e239ea45effd11eb
-t
-Dapp/src/main/java/com/afares/foody/bindingadapters/RecipesBinding.kt,1\7\17e36172d7c7d065479ee0d7f434689b3f8d317a
 w
 Gapp/src/main/java/com/afares/foody/bindingadapters/RecipesRowBinding.kt,f\3\f38f5e1e2ec0757fe96039b0bf134a8ad9af74fd
 h
 8app/src/main/java/com/afares/foody/ui/DetailsActivity.kt,e\8\e83ede25152ce8944b614e45bbe1625b3e9bb5eb
-z
-Japp/src/main/java/com/afares/foody/ui/fragments/recipes/RecipesFragment.kt,d\2\d2c9f40f82a6353e91ceda4ee91587fe79e7ed21
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 G
@@ -225,3 +221,23 @@ E.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_32.xml,2\c\2cbe
 L.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_32.xml,4\e\4e498d562023172a7e851891f978fc6b7773a942
 „
 Tapp/src/main/java/com/afares/foody/ui/fragments/instructions/InstructionsFragment.kt,c\5\c5698aa88fcd8038de64f1edbba50202b6a5920e
+„
+Tapp/src/main/java/com/afares/foody/ui/fragments/favorites/FavoriteRecipesFragment.kt,5\a\5ace1d3f46f0a1052721ad37aa204d64da03a7bb
+u
+Eapp/src/main/java/com/afares/foody/adapters/FavoriteRecipesAdapter.kt,b\8\b8b989f5736a53b38d2d042c1c734e723254f877
+O
+.idea/modules/app/Foody.app.iml,3\5\35af8820223f66aa82aaa8355368154c3afec0cf
+e
+5app/src/main/java/com/afares/foody/models/FoodJoke.kt,0\4\045ba57819427560f066f0ad6b5f9a6363cdea62
+q
+Aapp/src/main/java/com/afares/foody/data/network/FoodRecipesApi.kt,1\1\1115f508a9fa118de2a647f9184d2fe0c93c4e3f
+k
+;app/src/main/java/com/afares/foody/data/RemoteDataSource.kt,4\7\479fad833662bcfa07a58f0f98b5a0638d93ba7e
+g
+7app/src/main/java/com/afares/foody/models/FoodRecipe.kt,2\3\2341ad18295651b2ea490be5d0e307eb7460d783
+d
+4app/src/main/java/com/afares/foody/util/Constants.kt,7\5\75442cb37f8c33afd806e17b1b1ec76ad7bc348e
+n
+>app/src/main/java/com/afares/foody/data/database/RecipesDao.kt,0\7\07a02809e59bde18cf15f1ec2cbb1896365f52af
+|
+Lapp/src/main/java/com/afares/foody/data/database/entities/FavoritesEntity.kt,b\e\be5653be695128b02caff51d97038f78d95d5a8c
