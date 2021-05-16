@@ -12,8 +12,6 @@ g
 z
 Japp/src/main/java/com/afares/foody/data/database/entities/RecipesEntity.kt,9\b\9ba9d09adfb3e5acf0c9168c2dfc3dd6c5d4a1f0
 q
-Aapp/src/main/java/com/afares/foody/data/network/FoodRecipesApi.kt,1\1\1115f508a9fa118de2a647f9184d2fe0c93c4e3f
-q
 Aapp/src/main/java/com/afares/foody/adapters/IngredientsAdapter.kt,a\f\af9e611dc78475ecfa654f077b3005e847b1c7f6
 c
 3app/src/main/java/com/afares/foody/MyApplication.kt,c\f\cfc771ff3d869cd3fce11d0c29c740c591d34144
