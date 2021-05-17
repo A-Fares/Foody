@@ -1,6 +1,4 @@
 
-e
-5app/src/main/java/com/afares/foody/ui/MainActivity.kt,8\a\8aa70295b20bd9c09f8b558d4a935ee35c16dbae
 |
 Lapp/src/main/java/com/afares/foody/bindingadapters/FavoriteRecipesBinding.kt,9\1\9173b5db8ac28edf1d97d068fe6edb7d99974e92
 |
@@ -13,8 +11,6 @@ c
 3app/src/main/java/com/afares/foody/MyApplication.kt,c\f\cfc771ff3d869cd3fce11d0c29c740c591d34144
 @
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 f
 6app/src/main/java/com/afares/foody/di/NetworkModule.kt,0\4\04dcd77cc5bf2bea765c38b4e66b2db0439514ad
 c
