@@ -9,6 +9,7 @@
         <entry key="..\:/Android_Project/Android_Jetpack_Architecture/My_Foody/Foody/app/src/main/res/drawable/ic_checkmark.xml" value="0.15034722222222222" />
         <entry key="..\:/Android_Project/Android_Jetpack_Architecture/My_Foody/Foody/app/src/main/res/drawable/ic_menu_book.xml" value="0.15034722222222222" />
         <entry key="..\:/Android_Project/Android_Jetpack_Architecture/My_Foody/Foody/app/src/main/res/drawable/ic_restaurant.xml" value="0.15034722222222222" />
+        <entry key="..\:/Android_Project/Android_Jetpack_Architecture/My_Foody/Foody/app/src/main/res/drawable/ic_share.xml" value="0.15034722222222222" />
         <entry key="..\:/Android_Project/Android_Jetpack_Architecture/My_Foody/Foody/app/src/main/res/drawable/ic_splash_screen_light.xml" value="0.14097222222222222" />
         <entry key="..\:/Android_Project/Android_Jetpack_Architecture/My_Foody/Foody/app/src/main/res/layout/activity_details.xml" value="0.1" />
         <entry key="..\:/Android_Project/Android_Jetpack_Architecture/My_Foody/Foody/app/src/main/res/layout/activity_main.xml" value="0.1" />
@@ -26,6 +27,7 @@
         <entry key="..\:/Android_Project/Android_Jetpack_Architecture/My_Foody/Foody/app/src/main/res/menu-v26/favorite_contextual_menu.xml" value="0.209375" />
         <entry key="..\:/Android_Project/Android_Jetpack_Architecture/My_Foody/Foody/app/src/main/res/menu/favorite_contextual_menu.xml" value="0.13958333333333334" />
         <entry key="..\:/Android_Project/Android_Jetpack_Architecture/My_Foody/Foody/app/src/main/res/menu/favorite_recipes_menu.xml" value="0.13958333333333334" />
+        <entry key="..\:/Android_Project/Android_Jetpack_Architecture/My_Foody/Foody/app/src/main/res/menu/food_joke_menu.xml" value="0.13958333333333334" />
         <entry key="..\:/Android_Project/Android_Jetpack_Architecture/My_Foody/Foody/app/src/main/res/menu/recipes_menu.xml" value="0.12013888888888889" />
       </map>
     </option>
