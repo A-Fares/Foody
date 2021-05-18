@@ -27,8 +27,6 @@ m
 =app/src/main/java/com/afares/foody/adapters/RecipesAdapter.kt,b\6\b68aa8a0224d3ee674ba21a9b7c693ce9986d49f
 o
 ?app/src/main/java/com/afares/foody/util/MyExtensionFunctions.kt,8\6\861deda61431bd15b38eebf6e239ea45effd11eb
-w
-Gapp/src/main/java/com/afares/foody/bindingadapters/RecipesRowBinding.kt,f\3\f38f5e1e2ec0757fe96039b0bf134a8ad9af74fd
 h
 8app/src/main/java/com/afares/foody/ui/DetailsActivity.kt,e\8\e83ede25152ce8944b614e45bbe1625b3e9bb5eb
 <
@@ -237,3 +235,9 @@ n
 >app/src/main/java/com/afares/foody/data/database/RecipesDao.kt,0\7\07a02809e59bde18cf15f1ec2cbb1896365f52af
 |
 Lapp/src/main/java/com/afares/foody/data/database/entities/FavoritesEntity.kt,b\e\be5653be695128b02caff51d97038f78d95d5a8c
+j
+:app/src/main/java/com/afares/foody/data/LocalDataSource.kt,5\d\5d2297f8c2f4e1f787540df5478d66e2afb27834
+z
+Japp/src/main/java/com/afares/foody/data/database/entities/RecipesEntity.kt,9\b\9ba9d09adfb3e5acf0c9168c2dfc3dd6c5d4a1f0
+u
+Eapp/src/main/java/com/afares/foody/bindingadapters/FoodJokeBinding.kt,e\c\ecabba98873a9f0cc2772e4b16295ff715fb68e4
